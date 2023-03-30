@@ -24,11 +24,14 @@ class _OutputState extends State<Output> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: SingleChildScrollView(
-          child: Center(
-            child: Container(
-              child: Text('${widget.riddle}'),
-            ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                child: Text("${widget.riddle}"),
+              ),
+            ],
           ),
         ),
       ),

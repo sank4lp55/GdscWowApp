@@ -154,7 +154,7 @@ class _Container1State extends State<Container1> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Tap the\nLeft Icon\nTo Scan\n',
+                  'Ta the\nLeft Icon\nTo Scan\n',
                   style: TextStyle(
                       fontSize: w! / 10,
                       fontWeight: FontWeight.bold,

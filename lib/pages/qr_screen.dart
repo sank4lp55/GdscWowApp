@@ -18,7 +18,8 @@ class _QRSCreenState extends State<QRSCreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('QRScanner'),
+          backgroundColor: Colors.transparent,
+          //title: const Text('QRScanner'),
           actions: [
             IconButton(
                 onPressed: () {
